@@ -1,0 +1,24 @@
+{
+  "employee":[
+    {
+      "emp_name":"sandy",
+      "emp_id":"3BR091",
+      "branch":"cse"
+    },
+    {
+      "emp_name":"tushar",
+      "emp_id":"3BR168",
+      "branch":"cse"
+    },
+    {
+      "emp_name":"varun",
+      "emp_id":"3BR174",
+      "branch":"cse"
+    },
+    {
+      "emp_name":"Priyanka",
+      "emp_id":"3BR041",
+      "branch":"cse"
+    }
+  ] 
+}

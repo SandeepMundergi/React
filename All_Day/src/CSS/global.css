@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+}
+
+section article{
+    width: 90%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+}
+
+aside{
+    width: 100%;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoBlock{
+    flex-basis: 50%;
+}
+
+.menuBlock{
+    flex-basis: 50%;
+}
+.menuBlock>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+

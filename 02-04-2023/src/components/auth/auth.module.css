@@ -1,0 +1,50 @@
+#navblock{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px -1px 8px 0px rgb(255, 255, 255); 
+}
+#navblock article{
+    width: 90%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logoblock{
+    flex-basis: 50%;
+}
+.logoblock span{
+    color:#fff;
+    margin-right: 15px;
+    font-size: 20px;
+    letter-spacing: 15px;
+}
+#logoico{
+    font-size: 30px;
+}
+
+.menublock{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-end;
+}
+
+.menublock ul{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.menublock ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menublock ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menublock ul li a:hover{
+    text-decoration: none;
+    color: rgb(128, 255, 0);
+}
